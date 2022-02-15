@@ -23,8 +23,17 @@ icon : note
 ## Install tmux
 1. Download tmux from [https://github.com/tmux/tmux/releases](https://github.com/tmux/tmux/releases)
 2. Extract
-3. run `./configure CFLAGS="-I$HOME/local/include -I$HOME/local/include/ncurses" LDFLAGS="-L$HOME/local/lib -L$HOME/local/include/ncurses -L$HOME/local/include"`
-4. run `CPPFLAGS="-I$HOME/local/include -I$HOME/local/include/ncurses" LDFLAGS="-static -L$HOME/local/include -L$HOME/local/include/ncurses -L$HOME/local/lib" make`
-5. cp `tmux $HOME/local/bin`
+3. run 
+```
+./configure CFLAGS="-I$HOME/local/include -I$HOME/local/include/ncurses" LDFLAGS="-L$HOME/local/lib -L$HOME/local/include/ncurses -L$HOME/local/include"
+</code>
+```
+
+4. run 
+```
+CPPFLAGS="-I$HOME/local/include -I$HOME/local/include/ncurses" LDFLAGS="-static -L$HOME/local/include -L$HOME/local/include/ncurses -L$HOME/local/lib" make
+```
+
+5. `cp tmux $HOME/local/bin`
 
 Special Thanks to [ryin](https://gist.github.com/ryin/3106801)
