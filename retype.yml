@@ -1,0 +1,25 @@
+input: .
+output: build
+url: https://docs.bimasoft.web.id/
+branding:
+  title: Wiki Bimasoft
+  label: Manual
+  logo: images/logo_lightmode.png
+  logoDark : images/logo_darkmode.png
+links:
+- text: Client Area
+  link: https://client.bimasoft.web.id/
+  target: blank
+- text: Telegram
+  link: https://t.me/bimasoftwebid
+  icon: "https://img.icons8.com/color/48/000000/telegram-app--v1.png"
+  target: blank
+footer:
+  copyright: "&copy; Copyright Bimasoft {{ year }}. All rights reserved."
+  links:
+    - text : Bimasoft
+      link : https://bimasoft.web.id/
+meta:
+  title: " | Manual Bimasoft"
+edit:
+  repo: "https://vscode.dev/github/yokowasis/wiki-bimasoft/blob/main/"
