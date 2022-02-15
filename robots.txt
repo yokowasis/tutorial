@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.bimasoft.web.id/sitemap.xml.gz
+Sitemap: https://yokowasis.github.io/tutorial/sitemap.xml.gz
