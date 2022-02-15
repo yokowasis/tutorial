@@ -26,7 +26,6 @@ icon : note
 3. run 
 ```
 ./configure CFLAGS="-I$HOME/local/include -I$HOME/local/include/ncurses" LDFLAGS="-L$HOME/local/lib -L$HOME/local/include/ncurses -L$HOME/local/include"
-</code>
 ```
 
 4. run 
